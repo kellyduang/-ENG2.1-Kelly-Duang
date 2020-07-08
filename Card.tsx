@@ -7,8 +7,6 @@ interface CardProps {
     children?:any
   }
 const Card = (props: CardProps) => (
-        // TODO: Add the description inside an HTML <p> 
-        // TODO: Add the website info as an HTML <a> just below the <h2>
         <aside className="Card" >
             <h2>{ props.title }</h2>
             
